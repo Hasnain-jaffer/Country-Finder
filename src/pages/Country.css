@@ -1,0 +1,99 @@
+/* Grid layout to hold all cards */
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+  padding: 80px 20px;
+  justify-items: center;
+}
+
+/* Card base styling */
+.custom-card {
+  background-color: #2a2a2a; /* Light neutral background (adjustable) */
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  width: 340px;
+  height: 460px; /* Fixed height for all cards */
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Fixed-size flag image */
+.custom-flag {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Card content */
+.custom-card-content {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.custom-country-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #00bcd4;
+  text-align: center;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.custom-card-content p {
+  margin: 6px 0;
+  font-size: 14px;
+ color: #ffffff;
+}
+
+/* Responsive behavior */
+@media (max-width: 600px) {
+  .custom-card {
+    width: 100%;
+  }
+}
+.country-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  background-color: #50505515; /* Indigo-700 */
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  gap: 8px;
+  margin-top: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.country-btn:hover {
+  background-color: #45454715; /* Indigo-600 */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.btn-text {
+  transition: all 0.3s ease;
+}
+
+.btn-icon {
+  font-size: 1.1rem;
+  transition: transform 0.3s ease;
+}
+
+

@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": "125.7 million",
+    "interestingFact": "Japan is made up of over 6,800 islands.",
+    "nationalSport": "Sumo Wrestling",
+    "bestPlaces": " Mount Fuji"
+  },
+  {
+    "id": 2,
+    "countryName": "France",
+    "capital": "Paris",
+    "population": "67.8 million",
+    "interestingFact": "France is the most visited country in the world.",
+    "nationalSport": "Football (Soccer)",
+    "bestPlaces": " Eiffel Tower" 
+   },
+  {
+    "id": 3,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": "214 million",
+    "interestingFact": "Brazil has the largest rainforest in the world — the Amazon.",
+    "nationalSport": "Football (Soccer)",
+    "bestPlaces": " Rio de Janeiro"
+  },
+  {
+    "id": 4,
+    "countryName": "Pakistan",
+    "capital": "Islamabad",
+    "population": "241 million",
+    "interestingFact": "Pakistan is home to the second-highest mountain, K2.",
+    "nationalSport": "Field Hockey",
+    "bestPlaces": " Hunza Valley"
+  },
+  {
+    "id": 5,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": "39.6 million",
+    "interestingFact": "Canada has more lakes than the rest of the world combined.",
+    "nationalSport": "Lacrosse and Ice Hockey",
+    "bestPlaces": " Niagara Falls"
+      },
+  {
+    "id": 6,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": "1.4 billion",
+    "interestingFact": "India is the world's largest democracy.",
+    "nationalSport": "Hockey",
+    "bestPlaces": " Taj Mahal"
+  },
+  {
+    "id": 7,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": "26 million",
+    "interestingFact": "Australia is home to more kangaroos than people.",
+    "nationalSport": "Cricket",
+    "bestPlaces": " Great Barrier Reef"
+  },
+  {
+    "id": 8,
+    "countryName": "Italy",
+    "capital": "Rome",
+    "population": "59 million",
+    "interestingFact": "Italy has more UNESCO World Heritage sites than any other country.",
+    "nationalSport": "Football (Soccer)",
+    "bestPlaces": " Colosseum"
+  },
+  {
+    "id": 9,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": "110 million",
+    "interestingFact": "Egypt is home to the oldest pyramid in the world.",
+    "nationalSport": "Football (Soccer)",
+    "bestPlaces": " Pyramids of Giza"
+  },
+  {
+    "id": 10,
+    "countryName": "United Kingdom",
+    "capital": "London",
+    "population": "67 million",
+    "interestingFact": "The UK has the oldest royal family in Europe.",
+    "nationalSport": "Cricket",
+    "bestPlaces": " Edinburgh"
+  },
+  {
+    "id": 11,
+    "countryName": "United States",
+    "capital": "Washington, D.C.",
+    "population": "332 million",
+    "interestingFact": "The U.S. has the largest economy in the world.",
+    "nationalSport": "Baseball",
+    "bestPlaces": " New York City"
+  },
+  {
+    "id": 12,
+    "countryName": "China",
+    "capital": "Beijing",
+    "population": "1.4 billion",
+    "interestingFact": "The Great Wall of China is over 13,000 miles long.",
+    "nationalSport": "Table Tennis",
+    "bestPlaces": " Great Wall"
+  },
+  {
+    "id": 13,
+    "countryName": "Germany",
+    "capital": "Berlin",
+    "population": "83 million",
+    "interestingFact": "Germany is known for its engineering and beer culture.",
+    "nationalSport": "Football (Soccer)",
+    "bestPlaces": " Neuschwanstein Castle"
+  },
+  {
+    "id": 14,
+    "countryName": "Thailand",
+    "capital": "Bangkok",
+    "population": "70 million",
+    "interestingFact": "Thailand is the only Southeast Asian country never colonized by a European power.",
+    "nationalSport": "Muay Thai",
+    "bestPlaces": " Bangkok"
+  },
+  {
+    "id": 15,
+    "countryName": "Turkey",
+    "capital": "Ankara",
+    "population": "85 million",
+    "interestingFact": "Istanbul is the only city in the world on two continents.",
+    "nationalSport": "Oil Wrestling",
+    "bestPlaces": " Hagia Sophia"
+  }
+]

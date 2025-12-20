@@ -1,0 +1,145 @@
+/* ===== Global Navbar Styles ===== */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #252525; /* Slightly lighter than #202020 */
+  padding: 1.4rem 2rem;
+  border-bottom: 2px solid #203349; /* Professional blue accent */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  top: 0;
+  position:sticky;
+  z-index: 999;
+
+}
+
+.navbar-logo a{
+  color: #2d89ef;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: #252525;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #252525;
+}
+
+.navbar-links a {
+  color: #e0e0e0;
+  font-size: 1rem;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 4px;
+  transition: all 0.3s ease;
+  background-color: #252525;
+}
+
+.navbar-links a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #2d89ef;
+  transition: width 0.3s ease;
+}
+
+.navbar-links a:hover,
+.navbar-links a.active {
+  color: #2d89ef;
+}
+
+.navbar-links a:hover::after,
+.navbar-links a.active::after {
+  width: 100%;
+}
+.hamburger{
+  display: none;
+}
+.close{
+  display: none;
+}
+.navbar-logo2{
+  display: none;
+}
+
+@media (max-width : 900px) {
+  .hamburger{
+    display: block;
+  }
+  .navbar-links{
+    display: none;
+  }
+  .close{
+    display: block;
+  }
+  .nav-links-mob{
+    position: absolute;
+    top: -1rem;
+    background-color:#252525;
+    width: 90%;
+    height: 100vh;
+    border-radius: .2rem;
+    list-style: none;
+  }
+  .nav-links-mob a {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .nav-links-mob li{
+    margin-top: 3rem;
+}
+.close{
+  position: relative;
+  left: 320px;
+  width: 0;
+  bottom: 350px;
+}
+.nav-links-mob a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  transition: width 0.3s ease;
+}
+
+.nav-links-mob a:hover,
+.navbar-links a.active {
+  color: #2d89ef;
+}
+
+.nav-links-mob a:hover::after,
+.nav-links-mob a.active::after {
+  width: 100%;
+}
+ .navbar-logo2{
+  display: block;
+  
+}
+.navbar-logo2  a{
+  color: #2d89ef;
+  font-size: 75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: #252525;
+  cursor: pointer;
+  text-decoration: none;
+}
+}
+
+ /* responsive code */
+
